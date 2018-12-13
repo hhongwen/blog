@@ -1,6 +1,6 @@
 <footer>
   <p class="site-info">
-    博客已萌萌哒运行<span id="time-to-now"></span><span class="my-face">(●'◡'●)ﾉ♥</span>
+    博客已运行<span id="time-to-now"></span><span class="my-face"></span>
     <br>
     Theme - <a href="https://github.com/dongyuanxin/theme-bmw">BMW</a> | Made With 💗 | Powered by <a href="https://godbmw.com/">GodBMW</a>
     <br>
@@ -19,14 +19,14 @@
   }
 
   isNaN(footerStartTime.year) && (footerStartTime.year = 2018)
-  isNaN(footerStartTime.month) && (footerStartTime.month = 2)
-  isNaN(footerStartTime.day) && (footerStartTime.day = 10)
+  isNaN(footerStartTime.month) && (footerStartTime.month = 12)
+  isNaN(footerStartTime.day) && (footerStartTime.day = 12)
 
 %>
 
 <script>
 const timeToNowDOM = document.querySelector("#time-to-now");
-const startTimestamp = new Date(<%- footerStartTime.year %>, <%- footerStartTime.month %>, <%- footerStartTime.day %>).getTime();
+const startTimestamp = new Date(<%- footerStartTime.year %>, <%- footerStartTime.month - 1%>, <%- footerStartTime.day %>).getTime();
 
 const updateTimeStr = () => {
   let offset = parseInt(

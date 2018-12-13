@@ -1,0 +1,13 @@
+{"name":"hexo","hostname":"PC-20180913ERXL","pid":8652,"level":20,"msg":"Writing database to D:\\Project\\blog/db.json","time":"2018-12-13T08:58:54.627Z","v":0}
+{"name":"hexo","hostname":"PC-20180913ERXL","pid":8652,"level":20,"msg":"Hexo version: \u001b[35m3.8.0\u001b[39m","time":"2018-12-13T08:58:54.642Z","v":0}
+{"name":"hexo","hostname":"PC-20180913ERXL","pid":8652,"level":20,"msg":"Working directory: \u001b[35mD:\\Project\\blog\\\u001b[39m","time":"2018-12-13T08:58:54.642Z","v":0}
+{"name":"hexo","hostname":"PC-20180913ERXL","pid":8652,"level":20,"msg":"Config loaded: \u001b[35mD:\\Project\\blog\\_config.yml\u001b[39m","time":"2018-12-13T08:58:54.779Z","v":0}
+{"name":"hexo","hostname":"PC-20180913ERXL","pid":8652,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-archive\u001b[39m","time":"2018-12-13T08:58:54.797Z","v":0}
+{"name":"hexo","hostname":"PC-20180913ERXL","pid":8652,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-category\u001b[39m","time":"2018-12-13T08:58:54.799Z","v":0}
+{"name":"hexo","hostname":"PC-20180913ERXL","pid":8652,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-marked\u001b[39m","time":"2018-12-13T08:58:54.806Z","v":0}
+{"name":"hexo","hostname":"PC-20180913ERXL","pid":8652,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-index\u001b[39m","time":"2018-12-13T08:58:54.807Z","v":0}
+{"name":"hexo","hostname":"PC-20180913ERXL","pid":8652,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-tag\u001b[39m","time":"2018-12-13T08:58:54.810Z","v":0}
+{"name":"hexo","hostname":"PC-20180913ERXL","pid":8652,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-ejs\u001b[39m","time":"2018-12-13T08:58:54.813Z","v":0}
+{"name":"hexo","hostname":"PC-20180913ERXL","pid":8652,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-stylus\u001b[39m","time":"2018-12-13T08:58:54.814Z","v":0}
+{"name":"hexo","hostname":"PC-20180913ERXL","pid":8652,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-server\u001b[39m","time":"2018-12-13T08:58:54.886Z","v":0}
+{"name":"hexo","hostname":"PC-20180913ERXL","pid":8652,"level":20,"msg":"Database saved","time":"2018-12-13T08:58:54.890Z","v":0}
