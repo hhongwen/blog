@@ -18,7 +18,13 @@ const getRealPath = pathname => {
   <div class="post">
     <h1 class="article-title">
       <a href="<%- url_for(psg.path) %>">
-        <span><%- psg.title %></span>
+        <span>
+          <% if(psg.top){ %>
+            <%- '[置顶] ' + psg.title %>
+          <% }else{%>
+            <%- psg.title %>
+          <% } %>
+          </span>
       </a>
     </h1>
     <!-- PC端文章信息 -->
