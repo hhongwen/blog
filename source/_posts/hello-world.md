@@ -1,7 +1,32 @@
 ---
 title: Hello World
+date: 2018-12-12 12:24:06
+tags: 随笔
+categories: 随笔
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+
+Welcome to [hhongwen](https://hhongwen.cn/) person blog! This is my very first post...
+修改于搭建博客的hello word，记得第一次写Hello World还是上大一的时候，匆匆那年一去复返。
+
+``` code
+    printf("Hello Word")
+    System.out.println("Hello Word")
+    print('Hello Word')
+    console.log('Hello Word')
+    ...
+```
+
+<!--more-->
+
+Welcome to [hhongwen](https://hhongwen.cn/)! This is my very first post...
+修改于搭建博客的hello word，记得第一次写Hello World还是上大一的时候，匆匆那年一去复返。
+
+``` code
+    printf("Hello Word")
+    System.out.println("Hello Word")
+    print('Hello Word')
+    console.log('Hello Word')
+```
 
 ## Quick Start
 
