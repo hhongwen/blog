@@ -4,10 +4,10 @@
 
 # Site
 title: 我在马路边
-subtitle:
-description:
+subtitle: PNote
+description: 记录和分享个人的学习和生活。
 author: hhongwen
-language:
+language: zh-Hans
 timezone:
 
 # URL
@@ -72,7 +72,8 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+# theme: landscape
+theme: bmw
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
