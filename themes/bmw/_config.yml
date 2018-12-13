@@ -122,6 +122,24 @@ nav:
 friends:
   -
     nickname: 我在马路边 # 昵称
-    avatar: https://gravatar.loli.net/avatar/b20750c40cd911256ddbd76a7f7e724c # 头像链接
-    site: https://hhongwen.com # 站点地址
-    meta: 本站 # 站点描述
+    avatar: /images/hhongwen.jpg # 头像链接
+    site: https://hhongwen.cn # 站点地址
+    meta: 吾生有涯，而知也无涯 # 站点描述
+  
+  -
+    nickname: GodBMW # 昵称
+    avatar: /images/godbmw.jpeg # 头像链接
+    site: https://godbmw.com # 站点地址
+    meta: GodBMW # 站点描述
+
+  -
+    nickname: 纯洁的微笑 # 昵称
+    avatar: /images/smile.png # 头像链接
+    site: http://www.ityouknow.com/ # 站点地址
+    meta: 分享技术 品味人生 # 站点描述
+
+  -
+    nickname: loveinliuy # 昵称
+    avatar: /images/loveinliuy.png # 头像链接
+    site: https://www.loveinliuy.com # 站点地址
+    meta: 每一个技术的学习，都是从模仿开始！ # 站点描述
