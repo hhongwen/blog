@@ -8,7 +8,7 @@ tags:
 
 > **“吾生也有涯，而知也无涯。”**
 
-2018年12月12日搭建此博客，博客采用用[Hexo](https://hexo.io/zh-cn/) + [Netlify](https://www.netlify.com/) 搭建，页面模板引用[hexo-theme-bmw](https://godbmw.com/passages/2018-11-15-theme-bmw-docs-zh/)主题，在此感谢[GODBMW](https://godbmw.com/)博主。
+2018年12月12日搭建此博客，博客采用用[Hexo](https://hexo.io/zh-cn/) + [Netlify](https://www.netlify.com/) 搭建，具体搭建可查看我的[Hexo+GitHub+Netlify搭建属于自己的博客网站](/20181216/cjpr1pe1r00025wui7jck58t9/)，页面模板引用[hexo-theme-bmw](https://godbmw.com/passages/2018-11-15-theme-bmw-docs-zh/)主题，在此感谢[GODBMW](https://godbmw.com/)博主。
 
 [“每一个技术的学习，都是从模仿开始。”](https://www.loveinliuy.com/) 出自朋友的博客网站，也希望在此能结识更多的朋友。
 
