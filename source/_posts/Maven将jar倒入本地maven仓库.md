@@ -1,5 +1,6 @@
 ---
 title: Maven将jar倒入本地maven仓库
+url: import-jar-into-local-maven
 date: 2018-12-13 22:31:37
 tags: Maven, jar
 categories: Java

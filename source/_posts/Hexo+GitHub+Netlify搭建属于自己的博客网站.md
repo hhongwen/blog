@@ -1,6 +1,6 @@
 ---
-layout: _draft
 title: 'Hexo+GitHub+Netlify搭建属于自己的博客网站'
+url: 'build-own-blog'
 date: 2018-12-16 19:00:00
 tags: 博客搭建
 categories: 博客

@@ -1,5 +1,6 @@
 ---
 title: Centos7安装MongoDB4.0
+url: centos7-install-mongodb4
 date: 2018-12-13 22:33:19
 tags: MongoDB
 categories: Linux

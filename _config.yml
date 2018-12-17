@@ -15,7 +15,8 @@ timezone:
 url: https://hhongwen.cn/
 root: /
 # permalink: :year/:month/:day/:title/
-permalink: :year:month:day/:id/
+# permalink: :year:month:day/:id/
+permalink: :year:month:day/:url/
 permalink_defaults:
 
 # Directory

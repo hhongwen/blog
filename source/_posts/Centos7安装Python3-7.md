@@ -1,5 +1,6 @@
 ---
 title: Centos7安装Python3.7
+url: centos7-install-pyhton3-7
 date: 2018-12-13 22:32:47
 tags: Python
 categories: Linux

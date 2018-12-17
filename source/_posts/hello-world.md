@@ -1,5 +1,6 @@
 ---
 title: Hello World
+url: 'hello-world'
 date: 2018-12-12 12:24:06
 tags: 随笔
 categories: 随笔

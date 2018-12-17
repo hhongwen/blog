@@ -1,5 +1,6 @@
 ---
 title: Linux链接网络
+url: linux-connect-net
 date: 2018-12-13 22:32:15
 tags: 网络
 categories: Linux
