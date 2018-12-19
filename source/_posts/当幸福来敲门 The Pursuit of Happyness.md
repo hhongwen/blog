@@ -4,6 +4,13 @@ url: the-pursuit-of-happyness
 date: 2018-12-19 14:00:19
 tags: 观后感
 categories: 电影
+playlist:
+  -
+    name: Opening
+    artist: Andrea Guerra
+    url: "//music.163.com/song/media/outer/url?id=1061969.mp3"
+    cover: "//p1.music.126.net/s7kBjYLxKB3wtobAuFIFpg==/830131279014386.jpg?param=130y130"
+
 ---
 
 ![promising](/images/happyness.png)
