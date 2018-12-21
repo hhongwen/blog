@@ -118,6 +118,11 @@ nav:
         path: "https://www.cnblogs.com/kerbside/"
         blank: true
 
+      -
+        name: "CSDN"
+        path: "https://blog.csdn.net/hongwen_han"
+        blank: true
+
 # 友链详细信息：支持多个友链
 friends:
   -
