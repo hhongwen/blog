@@ -69,12 +69,12 @@ touch mongodb.conf
 vi mongodb.conf
 
 # 5.在文件中插入如下内容
-dbpath = /usr/local/mongodb/data/db  #数据文件存放目录
-logpath = /usr/local/mongodb/logs/mongodb.log #日志存放目录
-port = 27017 #端口
-#fork = true #以守护程序的方式启用，即在后台运行
-logappend = true
-maxConns = 5000
+dbpath=/usr/local/mongodb/data/db  #数据文件存放目录
+logpath=/usr/local/mongodb/logs/mongodb.log #日志存放目录
+port=27017 #端口
+fork=true #以守护程序的方式启用，即在后台运行
+logappend=true
+maxConns=5000
 storageEngine = mmapv1
 
 ```
@@ -101,7 +101,7 @@ cd /usr/local/mongodb/bin
 
 1. 之前启动数据库写错了，由`./mongod  mongodb.conf`修改为`./mongod --config mongodb.conf`。
 
-2. `mongodb.conf`配置文件注释掉`fork`参数，后期解决后再做补充。
+2. ~~~`mongodb.conf`配置文件注释掉`fork`参数，后期解决后再做补充。~~~ 暂时看应该是注释问题，删除配置文件的注释和空格后即可，还是有点蒙蔽。
 
 ## 小结
 
