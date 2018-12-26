@@ -88,7 +88,7 @@ storageEngine = mmapv1
 cd /usr/local/mongodb/bin
 
 # 启动数据库
-./mongod --comfig mongodb.conf
+./mongod --config mongodb.conf
 
 # 访问数据库
 ./mongo
