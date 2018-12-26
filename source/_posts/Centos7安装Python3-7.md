@@ -2,8 +2,8 @@
 title: Centos7安装Python3.7
 url: centos7-install-pyhton3-7
 date: 2018-12-13 22:32:47
-tags: Python
-categories: Linux
+tags: [Python, Linux]
+categories: Python
 ---
 
 全新Centos7系统安装 Python3.7，虽然在Centos7已经预先存在了python2.7版本，但是不要慌，编译安装Python3.7是和原先的旧版本没有任何冲突的，原有的Python是在/usr/bin目录下，是可以共存的。

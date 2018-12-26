@@ -2,8 +2,8 @@
 title: Linux下安装JDK
 url: linux-install-jdk7
 date: 2018-12-13 22:31:56
-tags: JDk
-categories: Linux
+tags: [JDk, Linux]
+categories: JDk
 ---
 
 Linux安装JDK是开发中部署中必要知识，在此做下记录。
