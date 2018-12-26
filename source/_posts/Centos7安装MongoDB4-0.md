@@ -99,7 +99,7 @@ cd /usr/local/mongodb/bin
 
 在Ubuntu上安装的时候遇到了一些问题，做如下补充：
 
-1. 之前启动数据库写错了，由`./mongod  mongodb.conf`修改为`./mongod --comfig mongodb.conf`。
+1. 之前启动数据库写错了，由`./mongod  mongodb.conf`修改为`./mongod --config mongodb.conf`。
 
 2. `mongodb.conf`配置文件注释掉`fork`参数，后期解决后再做补充。
 
