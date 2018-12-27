@@ -81,3 +81,9 @@ theme: bmw
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+lazyload:
+  enable: true 
+  onlypost: false
+  loadingImg: # eg. ./images/loading.png
+
