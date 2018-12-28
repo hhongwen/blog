@@ -18,44 +18,31 @@ crontab文件的每一行均遵守特定的格式，由空格或tab分隔为数�
 
 ## Crontab文件
 
-上面有说道该文件通常存放于/etc或者/etc之下的子目录中，查看crontab文件命令`vi /etc/crontab`，文件内容大致如下（下面是我的机器Ubuntu上内容）：
+上面有说道该文件通常存放于/etc或者/etc之下的子目录中，查看crontab文件命令`vi /etc/crontab`，此文件只能root用户可以使用，然后将各个人物指定给不同的用户，文件内容大致如下（下面是我的机器Centos7上内容）：
 
 ``` vim
-# /etc/crontab: system-wide crontab
-# Unlike any other crontab you don't have to run the `crontab'
-# command to install the new version when you edit this file
-# and files in /etc/cron.d. These files also have username fields,
-# that none of the other crontabs do.
+SHELL=/bin/bash
+PATH=/sbin:/bin:/usr/sbin:/usr/bin
+MAILTO=root
 
-SHELL=/bin/sh
-PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+# For details see man 4 crontabs
 
-# m h dom mon dow user  command
-17 *    * * *   root    cd / && run-parts --report /etc/cron.hourly
-25 6    * * *   root    test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily )
-47 6    * * 7   root    test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.weekly )
-52 6    1 * *   root    test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.monthly )
-#
+# Example of job definition:
+# .---------------- minute (0 - 59)
+# |  .------------- hour (0 - 23)
+# |  |  .---------- day of month (1 - 31)
+# |  |  |  .------- month (1 - 12) OR jan,feb,mar,apr ...
+# |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat
+# |  |  |  |  |
+# *  *  *  *  * user-name  command to be executed
+
 ```
 
 ### **说明：**
 
 - **SHELL：** 任务执行方式指定本地sh，一般还有bash的
 - **PATH：** 系统执行命令的路径
-
-## 时间设置
-
-``` vim
-# 文件格式说明
-#  ——分鐘（0 - 59）
-# |  ——小時（0 - 23）
-# | |  ——日（1 - 31）
-# | | |  ——月（1 - 12）
-# | | | |  ——星期（0 - 7，星期日=0或7）
-# | | | | |
-# * * * * * 被执行的命令
-
-```
+- **MAILTO：** 发送结果给指定用户
 
 ### **注：**
 
@@ -76,8 +63,8 @@ PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 
 ## 设置任务
 
-由于我是要做备份操作，所以设置每周六执行一下shell脚本，对数据进行备份，在crontab文件添加内容如下：
+由于我是要做备份操作，所以设置每周六下午八点执行一下shell脚本，对数据进行备份，在crontab文件添加内容如下：
 
 ``` vim
-
+0 20 * * 6 root sh +x /home/mongodb/
 ```
