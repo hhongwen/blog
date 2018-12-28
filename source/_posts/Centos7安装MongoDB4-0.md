@@ -101,7 +101,7 @@ cd /usr/local/mongodb/bin
 
 1. 之前启动数据库写错了，由`./mongod  mongodb.conf`修改为`./mongod --config mongodb.conf`。
 
-2. ~~~`mongodb.conf`配置文件注释掉`fork`参数，后期解决后再做补充。~~~ 暂时看应该是注释问题，删除配置文件的注释和空格后即可，还是有点蒙蔽。
+2. ~~`mongodb.conf`配置文件注释掉`fork`参数，后期解决后再做补充。~~ 暂时看应该是注释问题，删除配置文件的注释和空格后即可，还是有点蒙蔽。
 
 ## 小结
 
