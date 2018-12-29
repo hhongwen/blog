@@ -66,5 +66,32 @@ MAILTO=root
 由于我是要做备份操作，所以设置每周六下午八点执行一下shell脚本，对数据进行备份，在crontab文件添加内容如下：
 
 ``` vim
-0 20 * * 6 root sh +x /home/mongodb/
+0 20 * * 6 root sh +x /home/crontab_test/cron_test.sh
 ```
+
+保存后即可自动执行。
+
+## Crontab命令
+
+`Crontab`命令是另一种定时任务执行方式，与上述形式相比只不过不需要指定用户执行。
+
+- `crontab -e`命令编写cron任务
+- `crontab -l`命令查看cron命令
+- `crontab -r`命令移除所有cron命令
+
+### 使用方式
+
+执行`crontab -e`命令，后进行编辑即可插入内容，注意和上述不同没有`root`不需要指定用户。编辑后不同操作系统`crontab -e`命令使用方式不同，一般`Ctrl+x`保存退出，还有`Ctrl+z`退出的具体看情况。
+
+`0 20 * * 6 sh +x /home/crontab_test/cron_test.sh`
+
+查看任务执行`crontab -l`就能看到所有任务列表：
+
+``` cron
+*/1 * * * * /usr/local/qcloud/stargate/admin/start.sh > /dev/null 2>&1 &
+0 0 * * * /usr/local/qcloud/YunJing/YDCrontab.sh > /dev/null 2>&1 &
+```
+
+## 小结
+
+本文只简单介绍了crontab的使用，还有一些详细的内容没有阐述，比如日志，不同用户使用和cron表达式等相关介绍，**后期持续更新**。
