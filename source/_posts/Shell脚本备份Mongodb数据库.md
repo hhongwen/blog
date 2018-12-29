@@ -110,6 +110,10 @@ sh +x mongobak.sh
 
 在执行过程中遇到错误`error running listCollections`,还有其他的错误一般就是`mongodump`命令使用不对，这里参考了一篇文章：[Not able to run mongodump](https://stackoverflow.com/questions/29699906/not-able-to-run-mongodump)，其他的请自行百度或者Google。
 
+## 进阶版
+
+以上满足了备份的脚本化，但是如果要做定时任务定期执行，那么就要结合linux的crontab完成，具体使用可参考文章[Linux定时任务Crontab使用](https://hhongwen.cn/20181228/linux-crontab-use/)
+
 ## 感谢
 
 参考来源：**[用shell脚本实现MongoDB数据库自动备份](http://blog.51cto.com/13362895/2150200)**
