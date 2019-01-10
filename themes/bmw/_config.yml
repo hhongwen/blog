@@ -130,6 +130,12 @@ friends:
     avatar: /images/hhongwen.jpg # 头像链接
     site: https://hhongwen.cn # 站点地址
     meta: 吾生有涯，而知也无涯 # 站点描述
+
+  -
+    nickname: loveinliuy # 昵称
+    avatar: /images/loveinliuy.png # 头像链接
+    site: https://www.loveinliuy.com # 站点地址
+    meta: 每一个技术的学习，都是从模仿开始！ # 站点描述
   
   -
     nickname: GodBMW # 昵称
@@ -144,7 +150,8 @@ friends:
     meta: 分享技术 品味人生 # 站点描述
 
   -
-    nickname: loveinliuy # 昵称
-    avatar: /images/loveinliuy.png # 头像链接
-    site: https://www.loveinliuy.com # 站点地址
-    meta: 每一个技术的学习，都是从模仿开始！ # 站点描述
+    nickname: 小北哥哥 # 昵称
+    avatar: /images/xiaobeizuishuai.jpg # 头像链接
+    site: http://guoxiaobei.com/ # 站点地址
+    meta: 小北最帅！ # 站点描述
+

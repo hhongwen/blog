@@ -23,8 +23,3 @@ Git 易于学习， 占地面积小，具有闪电般快速的性能。它超越
 ## Git安装
 
 [Git 官网下载安装包](https://git-scm.com/download/)
-
-
-## 感谢
-> 感谢[廖雪峰老师的Git教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)，这也是我了解和学习Git的地方。
-
