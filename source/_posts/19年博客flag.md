@@ -26,7 +26,7 @@ categories: 随笔
 
 ![blog_wx_bm](/images/blog_wx_bm.png)
 
-然后我的流量就创下的单天访问最高**128**！！！
+然后我的流量就创下的单天访问最高**126**！！！
 
 ![19_01_10_pv](/images/19_01_10_pv.png)
 
