@@ -125,6 +125,8 @@ nothing to commit, working tree clean
 
 这章主要讲了如何用`git init`初始化git仓库，然后编辑内容并提交到仓库，后期`git add <file>...`和`git commit -m '...'`和`git status`也是最常用的命令，这些命令将伴随后期所有的Git学习，需要多加练习。
 
+### 下一章
 
+通过本章已经了解了Git的如何从初始化到提交，这只是第一步，但是一般我们都是重复的修改和提交，怎么能查看整个任务的进程，请看下一章[Git提交及日志查看](https://hhongwen.cn/20190114/git-usage-commit-log)
 
-
+## **如果有疑问可以留言，一起讨论**
