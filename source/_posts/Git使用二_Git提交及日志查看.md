@@ -1,5 +1,5 @@
 ---
-title: Git使用二|Git提交及日志查看
+title: Git使用二|Git前生今世
 url: git-usage-commit-log
 date: 2019-01-14 22:00:00
 tags: Git
