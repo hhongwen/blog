@@ -127,6 +127,6 @@ nothing to commit, working tree clean
 
 ### 下一章
 
-通过本章已经了解了Git的如何从初始化到提交，这只是第一步，但是一般我们都是重复的修改和提交，怎么能查看整个任务的进程，请看下一章[Git提交及日志查看](https://hhongwen.cn/20190114/git-usage-commit-log)
+通过本章已经了解了Git的如何从初始化到提交，这只是第一步，但是一般我们都是重复的修改和提交，怎么能查看整个任务的进程，请看下一章[Git前生今世](https://hhongwen.cn/20190114/git-usage-commit-log)
 
 ## **如果有疑问可以留言，一起讨论**
