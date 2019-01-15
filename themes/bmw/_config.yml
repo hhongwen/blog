@@ -91,6 +91,12 @@ nav:
   - 
     name: 主页
     path: /
+  - 
+    name: 系列
+    children:
+      -
+        name: Git使用教程
+        path: /tags/Git
   -
     name: 归档
     path: /archives/
