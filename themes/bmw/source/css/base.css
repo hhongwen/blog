@@ -1042,3 +1042,15 @@ a:hover {
   visibility: hidden; }
 
 /*# sourceMappingURL=base.css.map */
+.fork_github {
+  display: none;}
+@media (min-width: 1200px) {
+  .fork_github{
+    display: inline;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border: 0;
+    z-index: 9999;
+  }
+}
