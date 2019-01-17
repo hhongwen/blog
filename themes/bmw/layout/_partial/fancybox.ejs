@@ -12,7 +12,7 @@
         // $(this).attr("data-fancybox", "gallery"); // if you add 'data-fancybox', img will display after showed
         var element = document.createElement("a");
         $(element).attr("data-fancybox", "gallery");
-        $(element).attr("href", $(this).attr("src"));
+        $(element).attr("href", $(this).attr("data-original"));
         $(this).wrap(element);
       });
       
