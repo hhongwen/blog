@@ -63,7 +63,7 @@ reward:
 # license: 声明信息(支持html)
 copyright: 
   enable: true
-  author: hhongwen 
+  author: 韩洪文 
   license: '本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可协议。转载请注明出处！'
 
 # 页脚信息 
@@ -82,7 +82,7 @@ leancloud:
   timer: true # 是否开启文章统计
 
 # 导航栏头部名称
-nav_name: 我在马路边
+nav_name: 摆渡人
 
 # 导航栏选项
 # blank: 是否在新页面打开，默认 false
@@ -166,4 +166,11 @@ friends:
     avatar: /images/avatar.jpg # 头像链接
     site: https://yehaizi.top # 站点地址
     meta: 目标前栈架构师 # 站点描述
+
+  -
+    nickname: 晨宇飞扬 # 昵称
+    avatar: /images/cyfy.png # 头像链接
+    site: https://inoyasha.github.io/ # 站点地址
+    meta:  热爱生活的Java工程师 # 站点描述
+    
 
