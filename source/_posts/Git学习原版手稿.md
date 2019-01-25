@@ -4,7 +4,7 @@ url: git-study-hand-file
 date: 2019-01-17 22:00:00
 tags: Git
 categories: Version Control
-top: true
+# top: true
 ---
 
 Git学习的时候难免会有遗忘然后往复学习查看的过程，所以就形成了这个学习的手稿，记录了Git使用过程中的大部分命令，今天在清理的时候偶然看到了这些记录，而且最近也在写Git的使用教程，大致的学习线路也是按照这个记录在更新，于是想在这留存下来做个纪念。
