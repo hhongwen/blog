@@ -162,15 +162,9 @@ friends:
     meta: 小北最帅！ # 站点描述
 
   -
-    nickname: 野孩子 # 昵称
-    avatar: /images/avatar.jpg # 头像链接
-    site: https://yehaizi.top # 站点地址
-    meta: 目标前栈架构师 # 站点描述
-
-  -
-    nickname: 晨宇飞扬 # 昵称
+    nickname: 郭小黑 # 昵称
     avatar: /images/cyfy.png # 头像链接
-    site: https://inoyasha.github.io/ # 站点地址
+    site: https://www.guoxiaohei.cn/ # 站点地址
     meta:  热爱生活的Java工程师 # 站点描述
     
 
