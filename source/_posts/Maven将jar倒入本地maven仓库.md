@@ -8,10 +8,6 @@ categories: 程序猿
 
 在Java项目开发过程中总会遇到自定义jar包或其他jar不存在maven仓库中，但是因为网络等原因无法更新maven仓库或者无法加载此jar包，那么可以通过下面方法将jar包引入到本地maven仓库中。
 
-<!--more-->
-
-在Java项目开发过程中总会遇到自定义jar包或其他jar不存在maven仓库中，但是因为网络等原因无法更新maven仓库或者无法加载此jar包，那么可以通过下面方法将jar包引入到本地maven仓库中。
-
 ## 环境变量配置maven
 
 ``` bash

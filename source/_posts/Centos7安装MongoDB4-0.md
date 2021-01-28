@@ -10,12 +10,6 @@ categories: 数据库
 MongoDB 是一个基于分布式文件存储的数据库。由 C++ 语言编写。旨在为 WEB 应用提供可扩展的高性能数据存储解决方案。
 MongoDB 是一个介于关系数据库和非关系数据库之间的产品，是非关系数据库当中功能最丰富，最像关系数据库的。
 
-<!--more-->
-
-由于项目需要使用MongoDB，所以记录一下在Centos7下安装MongoDB的方法。
-MongoDB 是一个基于分布式文件存储的数据库。由 C++ 语言编写。旨在为 WEB 应用提供可扩展的高性能数据存储解决方案。
-MongoDB 是一个介于关系数据库和非关系数据库之间的产品，是非关系数据库当中功能最丰富，最像关系数据库的。
-
 ## 安装包下载
 
 > [MongoDB点击跳转下载地址](https://www.mongodb.com/download-center#community)，打开地址后选择Community Server,然后选择Linux下载对应的版本安装包即可，但是下拉列表中有很多Linux安装包，Centos选择带RHEL的安装包，这里选**择RHEl 7 Linux 64-bit x64**版本的安装包即可，下载后上传到对应Linux服务器。

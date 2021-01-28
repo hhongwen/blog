@@ -8,10 +8,6 @@ categories: 运维
 
 Linux安装JDK是开发中部署中必要知识，在此做下记录。
 
-<!--more-->
-
-Linux安装JDK是开发中部署中必要知识，在此做下记录。
-
 ## 卸载JDK
 
 查看Linux是否安装了其他版本的JDK，如果安装了卸载原有JDK。
