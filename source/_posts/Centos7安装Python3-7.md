@@ -6,10 +6,10 @@ tags: [Python, Linux]
 categories: 程序猿
 ---
 
->全新Centos7系统安装 Python3.7，虽然在Centos7已经预先存在了python2.7版本，但是不要慌，编译安装Python3.7是和原先的旧版本没有任何冲突的，原有的Python是在/usr/bin目录下，是可以共存的。
+全新Centos7系统安装 Python3.7，虽然在Centos7已经预先存在了python2.7版本，但是不要慌，编译安装Python3.7是和原先的旧版本没有任何冲突的，原有的Python是在/usr/bin目录下，是可以共存的。
 下面介绍了安装步骤以及安装过程中遇到各种坑在此记录一下。T-T
 
-----------
+<!-- more -->
 
 ## 下载Python
 > [官网下载Python](https://www.python.org/downloads/source/)，下载地址：https://www.python.org/downloads/source/， 选择要下载的版本，这里选择Download Gzipped source tarball 下载，不同时期可能下载页面不一样，请自行寻找，good luck for you。

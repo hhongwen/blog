@@ -8,6 +8,8 @@ categories: 数据库
 
 ![mongodb-header-img](/images/mongodb-header-img.png)项目需要测试备份Mongodb的dump文件是否兼容，需要安装一个Mongodb3.6版本的库，由于之前已经安装过Mongodb4.0版本，所以这里讲一下Windows怎么安装第二个Mongodb，其中遇到了哪些坑。
 
+<!-- more -->
+
 ## MongoDB下载
 
 这里就不对Mongodb进行介绍了，因为第一次安装的Mongodb是安装包版本的，很简单直接下一步下一步就可以了，这次搞一个压缩版的进行安装，下载地址[MongoDB下载](https://www.mongodb.com/download-center/community)，选择自己要安装的版本进行下载即可。
